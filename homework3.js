@@ -1,28 +1,23 @@
-// ДЗ
+// Задание 1
 
-// Создайте функцию которая возводит переданное число в куб, необходимо вывести в консоль результат 2^3 степени + 3 ^ 3 степени
+const tripleNumber = number => number ** 3;
 
-// const tripleNumber = number => number ** 3;
-
-// console.log(tripleNumber(2) + tripleNumber(3));
+console.log(tripleNumber(2) + tripleNumber(3));
 
 
-// Пользователь вводит с клавиатуры число, если ввёл текст, необходимо вывести что значение задано неверно
-// Создать фукнцию, которая высчитывает 13 % от данного числа и выводит в консоль текст "Размер заработной 
-// платы за вычетом налогов равен значение"
+// Задание 2
 
 // function countPaycheck(salary) {
 //     let paycheck = salary * 0.87;
 //     console.log(`Размер заработной платы за вычетом налогов равен ${paycheck}`);
 // }
 
-// let userSalary = Number(prompt('Введите сумму вашей зарпаты'));
+// let userSalary = Number(prompt('Введите сумму вашей зарплаты'));
 
 // (isNaN(userSalary)) ? console.log('Значение задано неверно') : countPaycheck(userSalary);
 
 
-// Пользователь с клавиатуры вводит 3 числа, необходимо создать функцию, 
-// которая определяет максимальное значение среди этих чисел
+// Задание 3
 
 // function findMaximum(num1, num2, num3) {
 //     let max = num1;
